@@ -1,0 +1,47 @@
+/* h2.titulo{
+    border: 1px solid black;
+    box-shadow: 10px 5px 5px gold;
+    color: blueviolet;
+} */
+
+/* Selector por atributo. que tenga un atributo sin importar el valor */
+/* p[lang] {
+    background-color: aqua;
+} */
+
+
+/* $ significa que termine con lo especificado */
+/* a[href$="org"] {
+    background-color: red;
+}
+ */
+/* alt + shift + 94 */
+/* a[href^="#"] {  
+    background-color: yellowgreen;
+}
+
+a[href*="empresa"] {
+    font-size: 85px;
+}
+ */
+/*
+^ = Alt + shift + 94
+\ = Shift + 92
+*/
+
+/* Selctor hijo dorecto */
+/* main > p{
+    border-bottom: 1px dashed black;
+}
+
+h3 + p{
+    border-top: 1px solid red;
+    border-radius: 5px;
+}
+ */
+
+
+h3 ~ p {
+    border-radius: 1px solid red;
+    border-radius: 5px;
+} 
